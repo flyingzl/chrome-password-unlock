@@ -1,0 +1,45 @@
+# Rust编译输出
+/target
+**/*.rs.bk
+*.pdb
+
+# Cargo锁文件（可选，如果要在项目中保留依赖版本，则删除此行）
+# Cargo.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# 构建输出
+*.dSYM
+*.so
+*.dylib
+*.dll
+
+# 测试覆盖率
+tarpaulin-report.html
+cobertura.xml
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+
+# IDE配置
+.vscode/settings.json
+.idea/
+*.iml
+
+# 密码缓存文件（可选，如果不想提交用户缓存）
+.chrome-password-unlock/
