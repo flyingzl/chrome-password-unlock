@@ -67,6 +67,21 @@ cargo build --release
 # The binary will be at target/release/chrome-password-unlock
 ```
 
+### Download Binary
+
+Download precompiled binaries for macOS (Intel & Apple Silicon) from the [Releases](https://github.com/flyingzl/chrome-password-unlock/releases) page. Simply download the appropriate binary for your architecture:
+
+- **x86_64**: For Intel Macs
+- **aarch64**: For Apple Silicon Macs (M1/M2/M3)
+
+```bash
+# After downloading, make it executable
+chmod +x chrome-password-unlock
+
+# Move to PATH (optional)
+sudo mv chrome-password-unlock /usr/local/bin/
+```
+
 ## 🚀 Quick Start
 
 ### List All Chrome Profiles
@@ -403,7 +418,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [Chrome](https://www.google.com/chrome/) - Google Chrome browser
 - [Rust](https://www.rust-lang.org/) - The Rust programming language
-- [Original Go version](https://github.com/unknown/hack-chrome) - Inspiration for this tool
+- [Original Go version](https://github.com/flyingzl/google-chrome-password-decrypt) - Inspiration for this tool
 
 ---
 
